@@ -10,4 +10,7 @@ public class Mammal {
 	public void changeEnergyLevel(int change) {
 		energyLevel += change;
 	}
+	public void setEnergyLevel(int energyLevel) {
+		this.energyLevel = energyLevel;
+	}
 }

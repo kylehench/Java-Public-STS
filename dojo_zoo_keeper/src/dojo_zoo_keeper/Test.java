@@ -14,7 +14,17 @@ public class Test {
 		gorilla.eatBananas();
 		gorilla.climb();
 		gorilla.displayEnergyLevel();
-
+		
+		System.out.println("\n--- Testing Bat ---");
+		Bat bat = new Bat();
+		bat.fly();
+		bat.fly();
+		bat.eatHumans();
+		bat.eatHumans();
+		bat.attackTown();
+		bat.attackTown();
+		bat.attackTown();
+		bat.displayEnergyLevel();
 	}
 
 }
