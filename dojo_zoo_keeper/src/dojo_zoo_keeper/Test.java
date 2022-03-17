@@ -2,6 +2,7 @@ package dojo_zoo_keeper;
 
 public class Test {
 	public static void main(String[] args) {
+//		import org.junit.jupiter.api.Test;
 		Mammal mammal = new Mammal();
 		mammal.displayEnergyLevel();
 		
